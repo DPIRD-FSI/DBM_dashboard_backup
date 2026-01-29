@@ -23,15 +23,18 @@ install.packages(c(
   "leaflet", "terra", "R6", "sf"
 ))
 
-Project Structure
+Project Structure:
 DBM_NewDashboard/
-- R/
-utils.R          # Weather fetcher, thermal/rainfall models, helpers
-app_ui.R         # Shiny UI layout
-app_server.R     # Server logic with reactive risk computation
-run_app.R        # Entry point to start dashboard
-- www/
-sdm_context.png  # Static SDM background map (2023)
+ R/ 
+- utils.R          # Weather fetcher, thermal/rainfall models, helpers
+- app_ui.R         # Shiny UI layout
+- app_server.R     # Server logic with reactive risk computation
+- run_app.R        # Entry point to start dashboard
+
+ www/
+ 
+ sdm_context.png  # Static SDM background map (2023)
+
 -README.md
 
 
